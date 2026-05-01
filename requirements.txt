@@ -1,0 +1,25 @@
+# ============================================================
+# LangChain Intelligent Chatbot — Dependencies
+# ============================================================
+
+# Core LangChain framework
+langchain>=0.3
+langchain-core>=0.3
+
+# Google GenAI integration (LLM + Embeddings)
+langchain-google-genai>=1.0
+
+# Community integrations (PDF loader, FAISS vector store)
+langchain-community>=0.3
+
+# Vector store — CPU version (use faiss-gpu if you have CUDA)
+faiss-cpu>=1.8
+
+# PDF parsing
+pypdf>=4.0
+
+# Web UI
+streamlit>=1.35
+
+# Environment variable management
+python-dotenv>=1.0

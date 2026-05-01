@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FAISS index files (generated at runtime)
+*.faiss
+*.pkl
+
+# Streamlit
+.streamlit/
+
+# Uploaded documents (optional — uncomment if you want to ignore)
+# uploaded_docs/
